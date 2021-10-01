@@ -1,4 +1,5 @@
-@media screen and (max-width:1000px){
+/*screen size breakpoint for large screen*/
+@media screen and (max-width:1200px){
     h2{
         font-size: 20px;
         margin-left: 15px;
