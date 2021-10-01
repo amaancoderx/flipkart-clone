@@ -2,333 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!</title>
-   <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/utils.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="shortcut icon" href="img/amaan.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Flipkart</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <img src="img/logo.png" width="125">
-
-            </div>
-
-            <ul>
-                <li> <a href="home.html">Home</a></li>
-                <li> <a href="about.html">About</a></li>
-                <li> <a href="contact.html">Contact</a></li>
-
+            <ul class="navi">
+                <span>
+                    <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fk-plus_3b0baa.png"
+                        alt="" class="logo" />
+                    <form action="">
+                        <input type="text" class="search" placeholder="Search for products, brands and more" />
+                    </form>
+                </span>
+                    <li>Kamado Tanjirou</li>
+                    <li>More</li>
+                    <li>Cart</li>
             </ul>
-            <div class="search">
-                <input type="text" name="" id="" placeholder="Search Here">
-
-                <button class="btn">Search</button>
         </nav>
     </header>
-    <main>
-        <div class="container">
-            <div class="slider">
-                <img class="mySlides" src="img/01b079a67dde40e0.jpeg" height="300" width="1400">
-                <img class="mySlides" src="img/2bf54cfbdee506a8.jpeg" height="300" width="1400">
-                <img class="mySlides" src="img/782aeb05121d3627.jpeg" height="300" width="1400">
-                <img class="mySlides" src="img/d7dd5e4e04f6bfbc.jpg" height="300" width="1400">
-            </div>
-            <script>
-                var slideIndex = 0;
-                carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 3000); // Change image every 3 seconds
-}
-            </script>
-                <div class="card"> 
-                    <h2 class="">Deals of the Day</h1>
-
-                        <div class="grid-container">
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image2.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Nautica Blue Sail</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="Bluetooth">
-                                    <img src="img/image3.jpeg" height="150" width="90">
-                                    </div>
-                                    <div class="lines">
-                                        <p> Portable Bluetooth Speaker </p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image4.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Blue t-shirt</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image5.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Wired Earphone</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="poco">
-                                    <img src="img/image10.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>POCO M2 Pro</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image6.png" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Hand Bag</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                                    
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image9.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Hammock And Swings</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image7.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Musical Instruments</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                          </div>
-                          </div>
-                          <h2 class="">Headphones & Speakers</h1>
-
-                          <div class="grid-container">
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image12.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Headphones Over Ear </p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image13.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>JBL Wired Headset </p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image14.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Wireless Bluetooth Headset</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                                    
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item ">
-                                    <img src="img/image15.jpeg" height="150" width="150">
-                                    </div>
-                                    <div class="lines">
-                                        <p>MIVI Bluetooth Speaker</p>
-                                        <p>Min 20% off</p>
-                                        <p>Grab Now!</p>
-                                    </div>
-                                        </div>
-                                        <div class="grid-item">
-                                            <div class="card-item ">
-                                                <img src="img/image19.jpeg" height="150" width="150">
-                                                </div>
-                                                <div class="lines">
-                                                    <p>Wired Earphone</p>
-                                                    <p>Min 20% off</p>
-                                                    <p>Grab Now!</p>
-                                                </div>
-                                        </div>
-                                        <div class="grid-item">
-                                            <div class="card-item ">
-                                                <img src="img/image20.jpeg" height="150" width="150">
-                                                </div>
-                                                <div class="lines">
-                                                    <p>Bluetooth Headphones</p>
-                                                    <p>Min 20% off</p>
-                                                    <p>Grab Now!</p>
-                                                </div>
-                                        </div>
-                                        <div class="grid-item">
-                                            <div class="card-item ">
-                                                <img src="img/image21.jpeg" height="150" width="150">
-                                                </div>
-                                                <div class="lines">
-                                                    <p>Wireless Bluetooth Headset</p>
-                                                    <p>Min 20% off</p>
-                                                    <p>Grab Now!</p>
-                                                </div>
-                                        </div>
-                                        <div class="grid-item">
-                                            <div class="card-item ">
-                                                <img src="img/image22.jpeg" height="150" width="150">
-                                                </div>
-                                                <div class="lines">
-                                                    <p>boAt Rockerz 370 Bluetooth Headset</p>
-                                                    <p>Min 20% off</p>
-                                                    <p>Grab Now!</p>
-                                                </div>
-                                        </div>
-                          </div>
-                          <h2 class="">Best Battery Phones</h1>
-                          <div class="grid-container">
-                            <div class="grid-item">
-                                <div class="card-item" id="mobile-card-item"> 
-                                    <img src="img/image 18.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>realme 8i</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="mobile-card-item">
-                                    <img src="img/image33.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>SAMSUNG Galaxy A72 </p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="mobile-card-item">
-                                    <img src="img/image23.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>vivo X60 Pro+
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="mobile-card-item">
-                                    <img src="img/image11.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Tecno Spark Power 2 </p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="mobile-card-item">
-                                    <img src="img/image24.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Mi 10</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="mobile-card-item">
-                                    <img src="img/image25.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>Mi 11X</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="mobile-card-item">
-                                    <img src="img/image26.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>vivo V21 5G</p>
-                                    </div>
-                            </div>
-                            <div class="grid-item">
-                                <div class="card-item " id="mobile-card-item">
-                                    <img src="img/image 27.jpeg" height="150" width="70">
-                                    </div>
-                                    <div class="lines">
-                                        <p>realme GT 5G</p>
-                                    </div>
-                            </div>
-                                        <div class="grid-item" >
-                                            <div class="card-item " id="mobile-card-item">
-                                                <img src="img/image28.jpeg" height="150" width="70">
-                                                </div>
-                                                <div class="lines">
-                                                    <p>POCO F3 GT</p>
-                                                </div>
-                                    </div>         
-                                    <div class="grid-item">
-                                        <div class="card-item " id="mobile-card-item">
-                                            <img src="img/image29.jpeg" height="150" width="70">
-                                            </div>
-                                            <div class="lines">
-                                                <p>realme X7 Max</p>
-                                            </div>
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="card-item " id="mobile-card-item">
-                                            <img src="img/image30.jpeg" height="150" width="90">
-                                            </div>
-                                            <div class="lines">
-                                                <p>SAMSUNG Galaxy Note 9</p>
-                                            </div>
-                                    </div>  
-                                    <div class="grid-item">
-                                        <div class="card-item " id="mobile-card-item">
-                                            <img src="img/image32.jpeg" height="150" width="70">
-                                            </div>
-                                            <div class="lines">
-                                                <p>realme X3 SuperZoom</p>
-                                            </div>
-                                    </div>         
-                                                                                              
-    </main>
-    
-    <footer class="flex-all-center">
-        <p> Made by amaancoderx </p> 
-    </footer>
+    <div class="category">
+        <div class="items-container">
+        <ul class="cat-img">
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="" width="63px" height="63px"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="" width="63px" height="63px" style="margin-left:5px;"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="" width="63px" height="63px"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100" alt="" width="63px" height="63px"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="" width="63px" height="63px"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/ee162bad964c46ae.png?q=100" alt="" width="63px" height="63px"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="" width="63px" height="63px"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="" width="63px" height="63px"></li>
+            <li class="cat-logo"><img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="" width="63px" height="63px"></li>
+        </ul>
+        <ul class="cat">
+            <li class="cat-items">Top Offers</li>
+            <li class="cat-items">Grocery</li>
+            <li class="cat-items">Mobiles</li>
+            <li class="cat-items">Fashion</li>
+            <li class="cat-items">Electronics</li>
+            <li class="cat-items">Home</li>
+            <li class="cat-items">Appliances</li>
+            <li class="cat-items">Travel</li>
+            <li class="cat-items">Beauty, Toys&More</li>
+        </ul>
+    </div>
+    </div>
+<div class="something">
+    <div class="slide"></div>
+    <div class="deals">
+        <div class="dd">
+            <h2>Deals of the Day</h2>
+            <button class="btn">View All</button>
+        </div>
+        <hr>
+    <div class="deal-main">
+        <ul class="dimg">
+            <li class="dimgitems"><img src="https://rukminim1.flixcart.com/image/150/150/k1l1ea80/data-cable/micro-usb-cable/m/d/e/flipkart-smartbuy-amrpb1m01-original-imafh4bufddxdf7v.jpeg?q=70" alt=""></li>
+            <li class="dimgitems"><img src="https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70" alt=""></li>
+            <li class="dimgitems"><img src="https://rukminim1.flixcart.com/image/150/150/kcnp8y80/vehicle-pull-along/z/w/z/diecast-cars-gift-pack-miss-chief-original-imaftpf5vaszfmhk.jpeg?q=70" alt=""></li>
+            <li class="dimgitems"><img src="https://rukminim1.flixcart.com/image/150/150/kbb49zk0/electric-kettle/v/n/b/havells-aqua-plus-1500w-original-imafszx8fufqwjhm.jpeg?q=70" alt=""></li>
+            <li class="dimgitems"><img src="https://rukminim1.flixcart.com/flap/150/150/image/73ac80c0bdc2041c.jpg?q=70" alt=""></li>
+            <li class="dimgitems"><img src="https://rukminim1.flixcart.com/flap/150/150/image/9645515bddcd9c7f.jpg?q=70" alt=""></li>
+        </ul>
+        <ul class="dname">
+            <li class="dname-items">Personal Hygiene Essentials</li>
+            <li class="dname-items">Grooming Best Sellers</li>
+            <li class="dname-items">Festive Ethnic Jewellery</li>
+            <li class="dname-items">Stationery & more</li>
+            <li class="dname-items">Music</li>
+            <li class="dname-items">Shoes</li>
+        </ul>
+        <ul class="doff">
+            <li class="doff-items">Upto 70%off</li>
+            <li class="doff-items">Upto 70%off</li>
+            <li class="doff-items">Upto 70%off</li>
+            <li class="doff-items">Upto 70%off</li>
+            <li class="doff-items">Upto 70%off</li>
+            <li class="doff-items">Upto 70%off</li>
+        </ul>
+        <ul class="dbrand">
+            <li class="dbrand-items">Example</li>
+            <li class="dbrand-items">Example</li>
+            <li class="dbrand-items">Example</li>
+            <li class="dbrand-items">Example</li>
+            <li class="dbrand-items">Example</li>
+            <li class="dbrand-items">Example</li>
+        </ul>
+    </div>
+    </div>
+    <div class="br-1"></div>
+</div>
 
 </body>
-
 </html>
